@@ -1,0 +1,10 @@
+spring:
+ data:
+  mongodb:
+   host: localhost
+   port: 27017
+   database: customer
+   socket-timeout: 10000  # in milliseconds
+
+server:
+  port: 8090
